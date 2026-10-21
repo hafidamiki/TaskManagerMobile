@@ -1,56 +1,58 @@
-# Welcome to your Expo app 👋
+# TaskManagerMobile
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple mobile task management application built with React Native, Expo, and TypeScript.
 
-## Get started
+## Features
 
-1. Install dependencies
+- View a list of tasks
+- Add new tasks
+- Mark tasks as completed or incomplete
+- Delete tasks
+- View task completion progress
+- Responsive mobile interface
 
-   ```bash
-   npm install
-   ```
+## Tech Stack
 
-2. Start the app
+- React Native
+- Expo
+- TypeScript
+- Expo Router
 
-   ```bash
-   npx expo start
-   ```
+## Getting Started
 
-In the output, you'll find options to open the app in a
+### Prerequisites
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- Node.js and npm
+- Expo Go on a mobile device
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Installation
 
-## Get a fresh project
-
-When you're ready, run:
+Clone this repository:
 
 ```bash
-npm run reset-project
+git clone https://github.com/hafidamiki/TaskManagerMobile.git
+cd TaskManagerMobile
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Install dependencies:
 
-### Other setup steps
+```bash
+npm install
+```
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+Start the development server:
 
-## Learn more
+```bash
+npx expo start
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+Scan the QR code with Expo Go to open the application on your mobile device.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Current Limitations
 
-## Join the community
+- Tasks are stored in local application state and are not persisted after a full app reload.
+- Backend API integration is not implemented yet.
 
-Join our community of developers creating universal apps.
+## Author
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Hafid Amiki
